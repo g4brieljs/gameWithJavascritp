@@ -210,8 +210,8 @@ function subisteNivel(){
 
 // Events keyWord
 
-document.addEventListener('click', function(e){
-    if(e.keyCode == 32){
+document.addEventListener('onmousedown', function(e){
+    if(e.button == 32){
         
         if(nivel.muerte == false){
 
